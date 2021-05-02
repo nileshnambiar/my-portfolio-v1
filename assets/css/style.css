@@ -1,3 +1,4 @@
+/* declaring variables for colors used on the site */
 :root {
     --background-color: #EEEDF6;
     --primary-color: #30343D;
@@ -5,15 +6,68 @@
     --tertiary-color: #92CCCD;
 }
 
+/* Generic styles applicable for the whole page */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* styles for the body */
 body {
     background-color: var(--background-color);
     color: var(--secondary-color);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* styles for the header */
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 10px 0 10px 0;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 36px;
+    padding-left: 50px;
+    padding-right: 20px;
+    background-color: var(--tertiary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+header nav {
+    margin: 7px 0px;
+}
+
+header nav a {
+    color: var(--tertiary-color);
+}
+
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
 
