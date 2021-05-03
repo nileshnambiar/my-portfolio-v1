@@ -34,7 +34,7 @@ header h1 {
     margin: 10px 0px;
     color: var(--primary-color);
     font-weight: bold;
-    font-size: 36px;
+    font-size: 48px;
     padding: 3px 20px 3px 50px;
     background-color: var(--tertiary-color);
 }
