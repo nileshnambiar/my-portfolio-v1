@@ -67,7 +67,6 @@ header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
 }
-/* end of styles for the header */
 
 /* styles for hero section */
 
@@ -89,3 +88,45 @@ header nav ul li a {
     align-items: right;
 }
 
+/* overall styles for individual segments */
+.segment-title {
+    width: 15%;
+    border-right: 3px solid var(--secondary-color);
+}
+
+.segment-title h2 {
+    text-align: right;
+    font-size: 46px;
+    font-weight: normal;
+    padding: 0px 20px;
+}
+
+.segment-data {
+    width: 85%;
+    padding: 0px 0px 0px 20px;
+    line-height: 1.5;
+}
+
+.segment {
+    display: flex;
+    margin: 20px 50px;
+}
+
+/*styles specific to contact me segment */
+
+#contact-me .segment-data div {
+    display: inline;
+}
+
+#contact-me .segment-data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact-me .segment-data > * {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 24px;
+    border-bottom: 3px solid var(--secondary-color) ;
+}
